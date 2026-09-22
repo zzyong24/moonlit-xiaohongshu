@@ -1,0 +1,5 @@
+interface:
+  display_name: "月明·小红书图文"
+  short_description: "生成单封面优先、可自动发布的小红书图文和标签"
+  brand_color: "#39EC88"
+  default_prompt: "使用 $moonlit-xiaohongshu 把已确认内容改写为月明品牌的小红书图文。"
