@@ -1,0 +1,20 @@
+[
+ {
+  "skill": "moonlit-xiaohongshu",
+  "query": "做一篇小红书图文，单封面加配文",
+  "should_trigger": true,
+  "expected": "single_cover 图文包，审核通过后交发布工具"
+ },
+ {
+  "skill": "moonlit-xiaohongshu",
+  "query": "把这个案例写成小红书笔记",
+  "should_trigger": true,
+  "expected": "配文 ≤500 字 + 封面交 Codex 生图"
+ },
+ {
+  "skill": "moonlit-xiaohongshu",
+  "query": "写一条 X 线程",
+  "should_trigger": false,
+  "expected": "路由到 moonlit-x-short"
+ }
+]
